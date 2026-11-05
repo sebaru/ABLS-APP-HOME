@@ -98,7 +98,7 @@ Pré-requis : JDK 17, Android SDK (API 35).
 
 ## Livraison (CI)
 
-- Chaque push sur `main` compile un APK debug (artefact *Actions*).
+- Chaque push sur `trunk` compile un APK debug (artefact *Actions*).
 - Un tag `vX.Y.Z` produit une **GitHub Release** avec l'APK `abls-app-home-X.Y.Z.apk`.
 - Pour signer avec votre propre clé (recommandé pour les mises à jour), définir les secrets du dépôt :
   `ABLS_KEYSTORE_BASE64` (`base64 -w0 release.jks`), `ABLS_KEYSTORE_PASSWORD`, `ABLS_KEY_ALIAS`, `ABLS_KEY_PASSWORD`.
